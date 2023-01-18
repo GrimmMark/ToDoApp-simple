@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body {
+    color: rgb(74, 38, 38);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.content {
+    border: solid 2px rgb(74, 38, 38);
+    border-radius: 10px;
+    max-width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    margin: 1px;
+    font-family: calibri;
+}
+
+.action {
+    display: flex;
+
+}
+
+#new-task-form {
+    border: solid 2px rgb(74, 38, 38);
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 1px;
+    margin: 1px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: calibri;
+}
+
+.task .actions {
+    background-color: rgb(74, 38, 38);
+    border: solid 2px rgb(199, 199, 199);
+    border-radius: 10px;
+    height: 20px;
+    width: 500px;
+}
+
+button,
+input {
+    border: none;
+    border-radius: 6px;
+    margin: 1px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-family: calibri;
+}
